@@ -1,0 +1,104 @@
+/* General rules */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+img,
+span,
+button,
+input {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+input {
+  color: inherit;
+  border: none;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+input,
+select,
+textarea {
+  outline: none;
+  width: 100%;
+  padding: 5px;
+}
+address {
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Search bar */
+.weather-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../alex-machado-80sv993lUKI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.suggestion {
+  transform: translateX(12.5%);
+  -webkit-transform: translateX(12.5%);
+  -moz-transform: translateX(12.5%);
+  -ms-transform: translateX(12.5%);
+  -o-transform: translateX(12.5%);
+  margin-bottom: 60px;
+}
+.suggestion ul {
+  width: 75%;
+}
+#searchIcon {
+  cursor: pointer;
+}
+.suggestion ul li span {
+  display: inline;
+  text-transform: capitalize;
+}
+.suggestion ul li {
+  cursor: pointer;
+}
+.highLight {
+  background-color: yellow;
+}
+.weather-card {
+  height: 600px;
+  background-color: rgb(0, 0, 0, 0.2);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.fontSize {
+  font-size: 20px;
+}
+.weather-data {
+  width: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
