@@ -78,6 +78,7 @@ lists.forEach(
       console.log(e.target.dataset.city);
       searchFlag = true;
       cityNameDom.value = e.target.dataset.city;
+      cityNameDom.focus();
       suggestionUl.innerHTML = '';
     }),
   true
